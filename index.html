@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculation</title>
+    <link rel="stylesheet" href="/project/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Calculator</h1>
+        <h6>Enter the temperature in degrees Celsius (°C) into the box below, then click the 'Convert' button to get the conversion results in Farenheit (°F). </h6>
+        <label for="celsius">Celsius:</label>
+        <input type="number" id="celsius" placeholder="Enter Celsius temperature" required>
+        <div class="InputButtonSection">
+            <button onclick="calculateTemperature()">Convert</button>
+            <button onclick="calculateTemperature()">Reset</button>
+            <button onclick="calculateTemperature()">Reverse</button>
+        </div>
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input id="fahrenheit" placeholder="Enter Fahrenheit temperature" required>
+        <label for="method">Calculation Method:</label>
+        <div class="method" id="method"></div>
+    </div> 
+</body>
+</html>
